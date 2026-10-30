@@ -1,8 +1,8 @@
 /* Paste your Supabase project URL and anon/public key below.
    Never put a service_role key in website code. */
 window.AMELIAS_CONFIG = {
-  SUPABASE_URL: "YOUR_SUPABASE_PROJECT_URL",
-  SUPABASE_ANON_KEY: "YOUR_SUPABASE_ANON_KEY",
+  SUPABASE_URL: "https://bwwpxtoopwqdqzhkgqws.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_dbwimiyvQyEQ7guIVjhFGw_GTCxDB-o",
   WHATSAPP_NUMBER: "254784904677",
   PHONE_DISPLAY: "0729 339 019",
   PHONE_TEL: "+254729339019",

@@ -91,9 +91,23 @@ body{background:linear-gradient(180deg,#fffaf8 0%,#fff7f7 48%,#fffaf7 100%);colo
 }
 @media(prefers-reduced-motion:reduce){.product-card,.product-image img,.btn{transition:none}}
 
+ .brand-logo {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    flex-shrink: 0;
+    display: block;
+}
+
 </style></head>
 <body class="admin-body">
-<header class="admin-top"><a class="brand" href="index.html"><span class="brand-mark">✿</span><span class="brand-name">Amelia's<small>Store management</small></span></a><a class="text-link" href="index.html">← View website</a></header>
+<header class="admin-top">
+    <a class="brand" href="index.html">
+        <img src="amelia-logo.png" alt="Amelia's Logo" class="brand-logo">
+        <span class="brand-name">Amelia's<small>Store management</small></span>
+    </a>
+    <a class="text-link" href="index.html">← View website</a>
+</header>
 <main class="admin-shell">
   <section class="admin-login panel" id="loginPanel"><p class="eyebrow">Private area</p><h1>Store admin</h1><p class="muted">Sign in to manage products, new arrivals and store details.</p>
     <form id="loginForm"><div class="field"><label for="adminEmail">Admin email</label><input id="adminEmail" type="email" required autocomplete="username"></div><div class="field"><label for="adminPassword">Password</label><input id="adminPassword" type="password" required autocomplete="current-password"></div><button class="btn full" type="submit">Sign in securely</button></form><p class="form-note" id="loginMessage">Admin accounts are created in your Supabase dashboard. Public sign-up is disabled.</p>
